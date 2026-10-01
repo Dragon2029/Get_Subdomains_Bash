@@ -2,8 +2,8 @@
 First Bash Script Get Subdomains.
 
 # How to install on kali linux:
-git clone https://github.com/Dragon2029/Get_Subdomains_Bash/
-cd Get_Subdomains_Bash/
+git clone https://github.com/Dragon2029/Get_Subdomains_Bash/\n
+cd Get_Subdomains_Bash/\n
 chmod +x Get_subdomains.sh
 
 # How to install on termux app: 
