@@ -33,7 +33,7 @@ cd Get_Subdomains_Bash
 # Grant execution permission
 chmod +x Get_subdomains.sh
 
-📱 2. Termux (Android)
+#📱 2. Termux (Android)
 Follow these steps to set up the tool on Termux:
 Step 1: Install Required Dependencies
 pkg update && pkg upgrade -y
@@ -74,5 +74,3 @@ Dragon2029
  * GitHub: @Dragon2029
 ⭐ If you find this tool useful, don't forget to give it a star on GitHub!
 
---
-## Photos
