@@ -25,7 +25,7 @@ Run the following commands in your terminal:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Dragon2029/Get_Subdomains_Bash.git](https://github.com/Dragon2029/Get_Subdomains_Bash.git)
+git clone https://github.com/Dragon2029/Get_Subdomains_Bash.git
 
 # Navigate to the tool directory
 cd Get_Subdomains_Bash
@@ -37,11 +37,11 @@ chmod +x Get_subdomains.sh
 Follow these steps to set up the tool on Termux:
 Step 1: Install Required Dependencies
 pkg update && pkg upgrade -y
-pkg install bind-utils git -y
+pkg install dnsutils -y
 
 Step 2: Install Get_Subdomains
 # Clone the repository
-git clone [https://github.com/Dragon2029/Get_Subdomains_Bash.git](https://github.com/Dragon2029/Get_Subdomains_Bash.git)
+git clone https://github.com/Dragon2029/Get_Subdomains_Bash.git
 
 # Navigate to the directory
 cd Get_Subdomains_Bash
@@ -62,12 +62,17 @@ sudo ./Get_subdomains.sh example.com
 
 📋 Requirements
  * bash
- * bind-utils (for DNS utilities like host / dig)
+ * dnsutils (for DNS utilities like host / dig)
  * git
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
+
 👤 Author
 Dragon2029
  * GitHub: @Dragon2029
 ⭐ If you find this tool useful, don't forget to give it a star on GitHub!
+
+--
+## Photos
