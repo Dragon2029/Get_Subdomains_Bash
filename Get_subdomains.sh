@@ -16,7 +16,7 @@ domain=$(echo "$1" | sed 's|^https\?://||' | sed 's|^www\.||' | cut -d '/' -f 1)
 
 echo "[+] Target domain $1"
 echo "[+] Fetching $1 ...."
-
+# ------------------------------------------
 # Get index.html file from domain
 wget -q $1 -O index.html
 
